@@ -1,0 +1,12 @@
+/*
+Flex Responsive Design
+By: Harley Neal
+
+/* HELP FILE
+----------------------------------------------------------*/
+body { background:none; background-color:#333; }
+h2 { background-color:#C00; color:#fff; padding-top: 3px; padding-bottom: 3px; padding-left: 10px; }
+h1 { color: #FFF; background-color: #333; padding-top: 3px; padding-bottom: 3px; padding-left: 10px; }
+.help-highlight { color:#C00; }
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve { background-color:#F4F4F4; }
+.section .offset-left, .section .offset-right, .section .offset-both { background-color:#fff; }
