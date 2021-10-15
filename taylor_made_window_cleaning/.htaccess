@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^taylormadewindowcleaning.com [NC]
+RewriteRule ^(.*)$ http://www.taylormadewindowcleaning.com/$1 [L,R=301]
