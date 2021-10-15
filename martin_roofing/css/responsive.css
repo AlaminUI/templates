@@ -2555,11 +2555,11 @@
     .col-md-4.col-sm-7.col-xs-12.xs-margin-nine-bottom.xs-text-center.md-m-none {
         padding-left: 0;
     }
-    ul.left-list {
+    .left-list {
         width: 40% !important;
     }
     
-    ul.right-list {
+    .right-list {
         width: 60% !important;
     }
   
@@ -2585,14 +2585,14 @@
         text-align: left;
         justify-content: center;
     }
-    ul.left-list {
+    .left-list {
         margin-right: 50px;
         width: auto !important;
         min-width: 120px;
     }
-    ul.right-list {
+    .right-list {
         width: auto !important;
-        min-width: 190px;
+        min-width: 150px;
     }
     p.text-medium.text-medium-gray.xs-text-center {
         text-align: left !important;
@@ -2731,7 +2731,7 @@
     }
 }
 @media (min-width:320px) and (max-width:400px){
-    ul.left-list {
+    .left-list {
         margin-right: 20px;
     }
     ul.links.li-icon {

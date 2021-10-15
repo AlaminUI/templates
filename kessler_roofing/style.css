@@ -356,6 +356,9 @@ h1, h2 { padding-left:3px; padding-right:3px }
 }
 
  /* extra csss here  */
+ h1{
+	 text-align: center;
+ }
  .services-icons p img{
 	display: inline-block !important;
 }

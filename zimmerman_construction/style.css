@@ -225,7 +225,7 @@ h1, h2 { padding-left:3px; padding-right:3px }
 .menu-top p.mobile-dropdown { color:#fff; display: block !important; background-color: #000 !important; text-align: center; width: 100% !important; margin-bottom: -1px; padding:0 !important; line-height: 40px !important; cursor: pointer; background-image: url(files/mobile/menu-view.png); background-repeat: no-repeat; background-position: right center; }
 .menu-top { width: 100% !important; position: absolute !important; left: 0; overflow: hidden; line-height: 34px; top: 0px; height:40px; }
 .menu-top:hover { -webkit-transition: height .5s ease; -moz-transition: height .5s ease; -o-transition: height .5s ease; -ms-transition: height .5s ease; transition: height .5s ease; }
-.menu-top { background: none !important; padding:0px !important; margin:0px; !important;
+.menu-top { background: none !important; padding:0px !important; margin:0px;
 border:0; }
 .menu-top ul, .menu-top ul li, .menu-top ul ul li { list-style:none; width:100% !important; }
 .menu-top ul { opacity: .85; background-color: #000; }
@@ -260,6 +260,9 @@ border:0; }
     margin: 0 auto;
     width: 100%;
    
+}
+h1{
+    text-align: center;
 }
 .eight.request-page h1{
 	text-align: center !important;

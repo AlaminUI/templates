@@ -2062,11 +2062,11 @@ ul.double-link {
     display: flex;
 }
 
-ul.left-list {
+.left-list {
     width: 46% !important;
 }
 
-ul.right-list {
+.right-list {
     width: 54% !important;
 }
 ul.links.pl-ul li {
