@@ -8,14 +8,14 @@
   <link rel="stylesheet" type="text/css" href="help/css/reset.css" />
   <link rel="stylesheet" type="text/css" href="help/css/style.css" />
 
-  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script  src="js/jquery.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.css" />
   <!--[if IE 6]>
   <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.ie6.css" />
   <![endif]-->
-  <script type="text/javascript" src="js/lightbox/jquery.lightbox.min.js"></script>
-  <script type="text/javascript">
+  <script  src="js/lightbox/jquery.lightbox.min.js"></script>
+  <script >
     jQuery(document).ready(function($){
       $('.lightbox').lightbox();
     });
@@ -51,14 +51,14 @@
 
       <li>Include the jQuery library, the lightbox CSS file and the lightbox javascript in the head of the page(s) where you want to use the Lightbox.
 <pre>
-&lt;script type="text/javascript" src="js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script  src="js/jquery.min.js"&gt;&lt;/script&gt;
 
 &lt;link rel="stylesheet" type="text/css" href="js/lightbox/themes/<strong>default</strong>/jquery.lightbox.css" /&gt;
 &lt;!--[if IE 6]&gt;
 &lt;link rel="stylesheet" type="text/css" href="js/lightbox/themes/<strong>default</strong>/jquery.lightbox.ie6.css" /&gt;
 &lt;![endif]--&gt;
 
-&lt;script type="text/javascript" src="js/lightbox/jquery.lightbox.min.js"&gt;&lt;/script&gt;
+&lt;script  src="js/lightbox/jquery.lightbox.min.js"&gt;&lt;/script&gt;
 </pre>
       <p>Where <strong>default</strong> is the design that you have chosen, and can be:</p>
         <ul>
@@ -78,7 +78,7 @@
       
       <li>Then, initialize the plugin. Put the following code before the closing tag of your body
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   jQuery(document).ready(function($){
     $('.lightbox').lightbox();
   });
@@ -170,9 +170,9 @@
         <p>Make sure you don't have multiple versions of jquery in your page. Look at the source view in your browser to see what jscripts you are loading.</p>
         <p>For example:</p>
 <pre>
-&lt;script src="crazy_path/<strong>jquery.js</strong>" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="crazy_path/<strong>jquery.js</strong>" &gt;&lt;/script&gt;
 ...
-&lt;script src="crazy_path/<strong>jquery.min.js</strong>" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="crazy_path/<strong>jquery.min.js</strong>" &gt;&lt;/script&gt;
 ...
 &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/<strong>jquery.min.js</strong>"&gt;&lt;/script&gt;
 </pre>
@@ -195,7 +195,7 @@
       </li>
 
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   jQuery(document).ready(function($){
   
     $.lightbox("image.jpg");
@@ -267,7 +267,7 @@ getURL("javascript:jQuery.lightbox('image.jpg')");
         <strong>How can I open Lightbox in parent window from inside an iframe?</strong>
         <p>First thing you need to do is install the script in your parent window, but don't initialize it. Don't use jQuery(document).ready, instead, add the code below:</p>
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   function frameload(iframe) {
     var doc = iframe.contentWindow || iframe.contentDocument;
     if (doc.document) { doc = doc.document; };
@@ -295,7 +295,7 @@ getURL("javascript:jQuery.lightbox('image.jpg')");
       <p>Use this code:</p>
 
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   jQuery(document).ready(function($) {
     $('<strong>.videobox</strong>').live('click', function(ev) {
       

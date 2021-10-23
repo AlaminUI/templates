@@ -8,16 +8,16 @@
   <link rel="stylesheet" type="text/css" href="help/css/reset.css" />
   <link rel="stylesheet" type="text/css" href="help/css/style.css" />
 
-  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script  src="js/jquery.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.css" />
   <!--[if IE 6]>
   <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.ie6.css" />
   <![endif]-->
-  <!--<script type="text/javascript" src="src/jquery.lightbox.js"></script>-->
-  <script type="text/javascript" src="js/lightbox/jquery.lightbox.min.js"></script>
+  <!--<script  src="src/jquery.lightbox.js"></script>-->
+  <script  src="js/lightbox/jquery.lightbox.min.js"></script>
 
-  <script type="text/javascript">
+  <script >
     jQuery(document).ready(function($){
       $('.lightbox').lightbox();
     });
@@ -82,83 +82,83 @@
     <h2 id="help1">Images <a href="#wrapper" class="top">Back to top</a></h2>
     <h3 id="help10">Single Image</h3>
     <p>
-    <a href="assets/1.jpg" class="lightbox"><img src="assets/m1.jpg" alt=""/></a>
-    <a href="assets/2.jpg" class="lightbox"><img src="assets/m2.jpg" alt=""/></a>
-    <a href="assets/7.jpg" title="Image Description" class="lightbox"><img src="assets/m7.jpg" alt=""/></a>
+    <a href="assets/1.jpg" class="lightbox"><img src="assets/m1.jpg" alt="image"/></a>
+    <a href="assets/2.jpg" class="lightbox"><img src="assets/m2.jpg" alt="image"/></a>
+    <a href="assets/7.jpg" title="Image Description" class="lightbox"><img src="assets/m7.jpg" alt="image"/></a>
     </p>
 
 <pre>
-&lt;a href="assets/1.jpg" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m1.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/2.jpg" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m2.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/7.jpg" title="Image Description" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m7.jpg" alt=""/&gt;&lt;/a&gt;
+&lt;a href="assets/1.jpg" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m1.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/2.jpg" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m2.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/7.jpg" title="Image Description" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m7.jpg" alt="image"/&gt;&lt;/a&gt;
 </pre>
 
     <h3 id="help11">Image Gallery</h3>
     <p>Galleries are created from elements who have the same "rel" tag.</p>
     <p>
-    <a href="assets/5.jpg" class="lightbox" rel="group1"><img src="assets/m5.jpg" alt=""/></a>
-    <a href="assets/6.jpg" class="lightbox" rel="group1"><img src="assets/m6.jpg" alt=""/></a>
-    <a href="assets/9.jpg" class="lightbox" rel="group1" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim ipsum nec sem scelerisque quis faucibus quam scelerisque. Sed quis arcu purus. Donec at lacus nec leo laoreet viverra at ac risus. Vivamus ipsum orci, interdum ut commodo sodales, ullamcorper a felis. "><img src="assets/m9.jpg" alt=""/></a>
+    <a href="assets/5.jpg" class="lightbox" rel="group1"><img src="assets/m5.jpg" alt="image"/></a>
+    <a href="assets/6.jpg" class="lightbox" rel="group1"><img src="assets/m6.jpg" alt="image"/></a>
+    <a href="assets/9.jpg" class="lightbox" rel="group1" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim ipsum nec sem scelerisque quis faucibus quam scelerisque. Sed quis arcu purus. Donec at lacus nec leo laoreet viverra at ac risus. Vivamus ipsum orci, interdum ut commodo sodales, ullamcorper a felis. "><img src="assets/m9.jpg" alt="image"/></a>
     </p>
 
 <pre>
-&lt;a href="assets/5.jpg" <strong>class="lightbox" rel="group1"</strong>&gt;&lt;img src="assets/m5.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/9.jpg" <strong>class="lightbox" rel="group1"</strong>&gt;&lt;img src="assets/m9.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/6.jpg" <strong>class="lightbox" rel="group1"</strong> title="Lorem ipsum dolor sit amet..."&gt;&lt;img src="assets/m6.jpg" alt=""/&gt;&lt;/a&gt;
+&lt;a href="assets/5.jpg" <strong>class="lightbox" rel="group1"</strong>&gt;&lt;img src="assets/m5.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/9.jpg" <strong>class="lightbox" rel="group1"</strong>&gt;&lt;img src="assets/m9.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/6.jpg" <strong>class="lightbox" rel="group1"</strong> title="Lorem ipsum dolor sit amet..."&gt;&lt;img src="assets/m6.jpg" alt="image"/&gt;&lt;/a&gt;
 </pre>
 
 
     <h3 id="help12">Big Images</h3>
     <p>Big images are resized to be completely visible</p>
     <p>
-    <a href="assets/4.jpg" class="lightbox"><img src="assets/m4.jpg" alt=""/></a>
-    <a href="assets/8.jpg" class="lightbox"><img src="assets/m8.jpg" alt=""/></a>
+    <a href="assets/4.jpg" class="lightbox"><img src="assets/m4.jpg" alt="image"/></a>
+    <a href="assets/8.jpg" class="lightbox"><img src="assets/m8.jpg" alt="image"/></a>
     </p>
 <pre>
-&lt;a href="assets/4.jpg" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m4.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/8.jpg" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m8.jpg" alt=""/&gt;&lt;/a&gt;
+&lt;a href="assets/4.jpg" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m4.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/8.jpg" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m8.jpg" alt="image"/&gt;&lt;/a&gt;
 </pre>
 
     <h3 id="help13">Advanced Examples</h3>
 
     <h5>Force Size</h5>
     <p>
-    <a href="assets/3.jpg?lightbox[width]=400&amp;lightbox[height]=200" class="lightbox"><img src="assets/m3.jpg" alt=""/></a>
-    <a href="assets/6.jpg?lightbox[width]=300&amp;lightbox[height]=200" class="lightbox"><img src="assets/m6.jpg" alt=""/></a>
+    <a href="assets/3.jpg?lightbox[width]=400&amp;lightbox[height]=200" class="lightbox"><img src="assets/m3.jpg" alt="image"/></a>
+    <a href="assets/6.jpg?lightbox[width]=300&amp;lightbox[height]=200" class="lightbox"><img src="assets/m6.jpg" alt="image"/></a>
     </p>
 <pre>
-&lt;a href="assets/3.jpg?<strong>lightbox[width]</strong>=400&amp;<strong>lightbox[height]</strong>=200" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m3.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/6.jpg?<strong>lightbox[width]</strong>=300&amp;<strong>lightbox[height]</strong>=200" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m6.jpg" alt=""/&gt;&lt;/a&gt;
+&lt;a href="assets/3.jpg?<strong>lightbox[width]</strong>=400&amp;<strong>lightbox[height]</strong>=200" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m3.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/6.jpg?<strong>lightbox[width]</strong>=300&amp;<strong>lightbox[height]</strong>=200" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m6.jpg" alt="image"/&gt;&lt;/a&gt;
 </pre>
 
     <h5>Relative Size</h5>
     <p>
-    <a href="assets/5.jpg?lightbox[width]=50p&amp;lightbox[height]=50p" class="lightbox"><img src="assets/m5.jpg" alt=""/></a>
-    <a href="assets/2.jpg?lightbox[width]=100p&amp;lightbox[height]=100p" class="lightbox"><img src="assets/m2.jpg" alt=""/></a>
+    <a href="assets/5.jpg?lightbox[width]=50p&amp;lightbox[height]=50p" class="lightbox"><img src="assets/m5.jpg" alt="image"/></a>
+    <a href="assets/2.jpg?lightbox[width]=100p&amp;lightbox[height]=100p" class="lightbox"><img src="assets/m2.jpg" alt="image"/></a>
     </p>
 <pre>
-&lt;a href="assets/5.jpg?<strong>lightbox[width]</strong>=50p&amp;<strong>lightbox[height]</strong>=50p" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m5.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/2.jpg?<strong>lightbox[width]</strong>=100p&amp;<strong>lightbox[height]</strong>=100p" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m2.jpg" alt=""/&gt;&lt;/a&gt;
+&lt;a href="assets/5.jpg?<strong>lightbox[width]</strong>=50p&amp;<strong>lightbox[height]</strong>=50p" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m5.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/2.jpg?<strong>lightbox[width]</strong>=100p&amp;<strong>lightbox[height]</strong>=100p" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m2.jpg" alt="image"/&gt;&lt;/a&gt;
 </pre>
 
 
     <h5>Disable AutoResize</h5>
     <p>
-    <a href="assets/9.jpg?lightbox[autoresize]=false" class="lightbox"><img src="assets/m9.jpg" alt=""/></a>
-    <a href="assets/4.jpg?lightbox[autoresize]=false" class="lightbox"><img src="assets/m4.jpg" alt=""/></a>
+    <a href="assets/9.jpg?lightbox[autoresize]=false" class="lightbox"><img src="assets/m9.jpg" alt="image"/></a>
+    <a href="assets/4.jpg?lightbox[autoresize]=false" class="lightbox"><img src="assets/m4.jpg" alt="image"/></a>
     </p>
 <pre>
-&lt;a href="assets/9.jpg?<strong>lightbox[autoresize]</strong>=false" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m9.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/4.jpg?<strong>lightbox[autoresize]</strong>=false" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m4.jpg" alt=""/&gt;&lt;/a&gt;
+&lt;a href="assets/9.jpg?<strong>lightbox[autoresize]</strong>=false" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m9.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/4.jpg?<strong>lightbox[autoresize]</strong>=false" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m4.jpg" alt="image"/&gt;&lt;/a&gt;
 </pre>
 
     <h5>Open in Modal</h5>
     <p>Toggle if clicking the overlay shouldn't close Lightbox.</p>
     <p>
-    <a href="assets/5.jpg?lightbox[modal]=true" class="lightbox"><img src="assets/m5.jpg" alt=""/></a>
+    <a href="assets/5.jpg?lightbox[modal]=true" class="lightbox"><img src="assets/m5.jpg" alt="image"/></a>
     </p>
 <pre>
-&lt;a href="assets/5.jpg?<strong>lightbox[modal]</strong>=true" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m5.jpg" alt=""/&gt;&lt;/a&gt;
+&lt;a href="assets/5.jpg?<strong>lightbox[modal]</strong>=true" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m5.jpg" alt="image"/&gt;&lt;/a&gt;
 </pre>
 
 
@@ -201,7 +201,7 @@
     
     <h3 id="help22">Flash / SWF</h3>
     <p>
-    <a href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf" class="lightbox"><img src="assets/m11.jpg" alt=""/></a>
+    <a href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf" class="lightbox"><img src="assets/m11.jpg" alt="image"/></a>
     </p>
 
 <pre>
@@ -226,7 +226,7 @@
 
     <h5>Open flash in fixed size</h5>
     <p>
-    <a href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf?lightbox[width]=700&amp;lightbox[height]=400" class="lightbox"><img src="assets/m11.jpg" alt=""/></a>
+    <a href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf?lightbox[width]=700&amp;lightbox[height]=400" class="lightbox"><img src="assets/m11.jpg" alt="image"/></a>
     </p>
 <pre>
 &lt;a href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf?<strong>lightbox[width]</strong>=700&amp;lightbox<strong>[height]</strong>=400" <strong>class="lightbox"</strong>&gt;flash&lt;/a&gt;
@@ -257,19 +257,19 @@
     <h3 id="help41">Simple Usage</h3>
     
     <p>
-    <a href="http://www.youtube.com/watch?v=TsUD1za9TA4" class="lightbox"><img src="assets/m12.jpg" alt=""/></a>
-    <a href="http://www.vimeo.com/12421175" class="lightbox"><img src="assets/m13.jpg" alt=""/></a>
-    <a href="http://www.metacafe.com/watch/yt-nn096G5jek0/coldplay_speed_of_sound_acoustic/" class="lightbox"><img src="assets/m14.jpg" alt=""/></a>
-    <a href="http://www.dailymotion.com/video/x53dvz_fragma-toca-s-miracle-2008_music" class="lightbox"><img src="assets/m15.jpg" alt=""/></a>
-    <a href="http://video.google.com/videoplay?docid=-8618166999532839788" class="lightbox"><img src="assets/m16.jpg" alt=""/></a>
-    <a href="http://www.gametrailers.com/video/zombies-trailer-scott-pilgrim/702661" class="lightbox"><img src="assets/m22.jpg" alt=""/></a>
-    <a href="http://www.twitvid.com/8H9D2" class="lightbox"><img src="assets/m24.jpg" alt=""/></a>
-    <a href="http://www.collegehumor.com/video:1927354" class="lightbox"><img src="assets/m23.jpg" alt=""/></a>
+    <a href="http://www.youtube.com/watch?v=TsUD1za9TA4" class="lightbox"><img src="assets/m12.jpg" alt="image"/></a>
+    <a href="http://www.vimeo.com/12421175" class="lightbox"><img src="assets/m13.jpg" alt="image"/></a>
+    <a href="http://www.metacafe.com/watch/yt-nn096G5jek0/coldplay_speed_of_sound_acoustic/" class="lightbox"><img src="assets/m14.jpg" alt="image"/></a>
+    <a href="http://www.dailymotion.com/video/x53dvz_fragma-toca-s-miracle-2008_music" class="lightbox"><img src="assets/m15.jpg" alt="image"/></a>
+    <a href="http://video.google.com/videoplay?docid=-8618166999532839788" class="lightbox"><img src="assets/m16.jpg" alt="image"/></a>
+    <a href="http://www.gametrailers.com/video/zombies-trailer-scott-pilgrim/702661" class="lightbox"><img src="assets/m22.jpg" alt="image"/></a>
+    <a href="http://www.twitvid.com/8H9D2" class="lightbox"><img src="assets/m24.jpg" alt="image"/></a>
+    <a href="http://www.collegehumor.com/video:1927354" class="lightbox"><img src="assets/m23.jpg" alt="image"/></a>
     </p>
 
 <pre>
 &lt;a href="http://www.youtube.com/watch?v=TsUD1za9TA4" <strong>class="lightbox"</strong>&gt;youtube&lt;/a&gt;
-&lt;a href="http://www.vimeo.com/12421175" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m13.jpg" alt=""/&gt;vimeo&lt;/a&gt;
+&lt;a href="http://www.vimeo.com/12421175" <strong>class="lightbox"</strong>&gt;&lt;img src="assets/m13.jpg" alt="image"/&gt;vimeo&lt;/a&gt;
 &lt;a href="http://www.metacafe.com/watch/yt-nn096G5jek0/coldplay_speed_of_sound_acoustic/" <strong>class="lightbox"</strong>&gt;metacafe&lt;/a&gt;
 &lt;a href="http://www.dailymotion.com/video/x53dvz_fragma-toca-s-miracle-2008_music" <strong>class="lightbox"</strong>&gt;dailymotion&lt;/a&gt;
 &lt;a href="http://video.google.com/videoplay?docid=-8618166999532839788" <strong>class="lightbox"</strong>&gt;google video&lt;/a&gt;
@@ -279,8 +279,8 @@
 
     <h5>Open video in fixed size and modal</h5>
     <p>
-    <a href="http://video.google.com/videoplay?docid=1299927595688205543&amp;lightbox[width]=610&amp;lightbox[height]=360" class="lightbox"><img src="assets/m16.jpg" alt=""/></a>
-    <a href="http://www.youtube.com/watch?v=Mq0j2Ot1NHo&amp;lightbox[width]=610&amp;lightbox[height]=360&amp;lightbox[modal]=true" class="lightbox"><img src="assets/m12.jpg" alt=""/></a>
+    <a href="http://video.google.com/videoplay?docid=1299927595688205543&amp;lightbox[width]=610&amp;lightbox[height]=360" class="lightbox"><img src="assets/m16.jpg" alt="image"/></a>
+    <a href="http://www.youtube.com/watch?v=Mq0j2Ot1NHo&amp;lightbox[width]=610&amp;lightbox[height]=360&amp;lightbox[modal]=true" class="lightbox"><img src="assets/m12.jpg" alt="image"/></a>
     </p>
 <pre>
 &lt;a href="http://video.google.com/videoplay?docid=1299927595688205543&amp;<strong>lightbox[width]</strong>=610&amp;<strong>lightbox[height]</strong>=360" <strong>class="lightbox"</strong>&gt;google video&lt;/a&gt;
@@ -297,9 +297,9 @@
     <h3 id="help44">Simple Usage</h3>
 
     <p>
-    <a href="http://maps.google.com/maps?q=paris+eiffel&hl=en&ll=48.855623,2.301292&spn=0.011831,0.033023&sll=48.855623,2.301292&sspn=0.011831,0.033023&vpsrc=6&t=h&radius=0.9&z=16&amp;lightbox[width]=610&amp;lightbox[height]=360" class="lightbox"><img src="assets/m19.jpg" alt=""/></a> |
-    <a href="http://maps.google.com/maps?q=paris+eiffel&hl=en&ll=48.855849,2.297945&spn=0.047211,0.132093&sll=37.0625,-95.677068&sspn=57.379893,135.263672&z=14&layer=c&cbll=48.856139,2.297599&panoid=9esL9yoOIlyEvOmPjCw9rg&cbp=12,328.32,,0,-17.08&amp;lightbox[width]=610&amp;lightbox[height]=360" class="lightbox"><img src="assets/m20.jpg" alt=""/></a> |
-    <a href="http://www.bing.com/maps/?v=2&amp;cp=41.89774457054518~12.471384108066559&amp;lvl=15&amp;sty=r&amp;where1=Rome%2C%20Laz.%2C%20Italy&amp;lightbox[width]=610&amp;lightbox[height]=360" class="lightbox"><img src="assets/m21.jpg" alt=""/></a>
+    <a href="http://maps.google.com/maps?q=paris+eiffel&hl=en&ll=48.855623,2.301292&spn=0.011831,0.033023&sll=48.855623,2.301292&sspn=0.011831,0.033023&vpsrc=6&t=h&radius=0.9&z=16&amp;lightbox[width]=610&amp;lightbox[height]=360" class="lightbox"><img src="assets/m19.jpg" alt="image"/></a> |
+    <a href="http://maps.google.com/maps?q=paris+eiffel&hl=en&ll=48.855849,2.297945&spn=0.047211,0.132093&sll=37.0625,-95.677068&sspn=57.379893,135.263672&z=14&layer=c&cbll=48.856139,2.297599&panoid=9esL9yoOIlyEvOmPjCw9rg&cbp=12,328.32,,0,-17.08&amp;lightbox[width]=610&amp;lightbox[height]=360" class="lightbox"><img src="assets/m20.jpg" alt="image"/></a> |
+    <a href="http://www.bing.com/maps/?v=2&amp;cp=41.89774457054518~12.471384108066559&amp;lvl=15&amp;sty=r&amp;where1=Rome%2C%20Laz.%2C%20Italy&amp;lightbox[width]=610&amp;lightbox[height]=360" class="lightbox"><img src="assets/m21.jpg" alt="image"/></a>
     </p>
 
 <pre>
@@ -337,7 +337,7 @@
     }
     </style>
 
-    <script type="text/javascript">
+    <script >
       jQuery(document).ready(function($){
         $("a.customlightbox").lightbox({
           buttons: [
@@ -354,10 +354,10 @@
     </script>
 
     <p>
-    <a href="assets/1.jpg" class="customlightbox"><img src="assets/m1.jpg" alt=""/></a>
-    <a href="assets/7.jpg" class="customlightbox"><img src="assets/m7.jpg" alt=""/></a>
-    <a href="assets/9.jpg" class="customlightbox" rel="group2"><img src="assets/m9.jpg" alt=""/></a>
-    <a href="assets/3.jpg" class="customlightbox" rel="group2"><img src="assets/m3.jpg" alt=""/></a>
+    <a href="assets/1.jpg" class="customlightbox"><img src="assets/m1.jpg" alt="image"/></a>
+    <a href="assets/7.jpg" class="customlightbox"><img src="assets/m7.jpg" alt="image"/></a>
+    <a href="assets/9.jpg" class="customlightbox" rel="group2"><img src="assets/m9.jpg" alt="image"/></a>
+    <a href="assets/3.jpg" class="customlightbox" rel="group2"><img src="assets/m3.jpg" alt="image"/></a>
     </p>
 
 <pre>
@@ -380,7 +380,7 @@
 </pre>
 
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   jQuery(document).ready(function($){
 
     $("a.<strong>customlightbox</strong>").lightbox({
@@ -400,10 +400,10 @@
 </pre>
 
 <pre>
-&lt;a href="assets/1.jpg" class="<strong>customlightbox</strong>"&gt;&lt;img src="assets/m1.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/7.jpg" class="<strong>customlightbox</strong>"&gt;&lt;img src="assets/m7.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/9.jpg" class="<strong>customlightbox</strong>" rel="<strong>group2</strong>"&gt;&lt;img src="assets/m9.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/6.jpg" class="<strong>customlightbox</strong>" rel="<strong>group2</strong>"&gt;&lt;img src="assets/m6.jpg" alt=""/&gt;&lt;/a&gt;
+&lt;a href="assets/1.jpg" class="<strong>customlightbox</strong>"&gt;&lt;img src="assets/m1.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/7.jpg" class="<strong>customlightbox</strong>"&gt;&lt;img src="assets/m7.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/9.jpg" class="<strong>customlightbox</strong>" rel="<strong>group2</strong>"&gt;&lt;img src="assets/m9.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/6.jpg" class="<strong>customlightbox</strong>" rel="<strong>group2</strong>"&gt;&lt;img src="assets/m6.jpg" alt="image"/&gt;&lt;/a&gt;
 </pre>
 
 
@@ -425,7 +425,7 @@
     }
     </style>
 
-    <script type="text/javascript">
+    <script >
       jQuery(document).ready(function(){
         jQuery("a.themeforest").lightbox({
           buttons: [
@@ -451,8 +451,8 @@
     </script>
 
     <p>
-    <a href="assets/17.jpg" class="themeforest" rel="group3" alt="http://themeforest.net/item/freshface-html-css/full_screen_preview/109603|http://themeforest.net/item/freshface-html-css/109603"><img src="assets/m17.jpg" alt=""/></a>
-    <a href="assets/18.jpg" class="themeforest" rel="group3" alt="http://themeforest.net/item/perfect-box-wordpress/full_screen_preview/101974|http://themeforest.net/item/perfect-box-wordpress/101974"><img src="assets/m18.jpg" alt=""/></a>
+    <a href="assets/17.jpg" class="themeforest" rel="group3" alt="http://themeforest.net/item/freshface-html-css/full_screen_preview/109603|http://themeforest.net/item/freshface-html-css/109603"><img src="assets/m17.jpg" alt="image"/></a>
+    <a href="assets/18.jpg" class="themeforest" rel="group3" alt="http://themeforest.net/item/perfect-box-wordpress/full_screen_preview/101974|http://themeforest.net/item/perfect-box-wordpress/101974"><img src="assets/m18.jpg" alt="image"/></a>
     </p>
 
 <pre>
@@ -472,7 +472,7 @@
 </pre>
 
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   jQuery(document).ready(function($){
     $("a.<strong>themeforest</strong>").lightbox({
       buttons: [
@@ -499,8 +499,8 @@
 </pre>
 
 <pre>
-&lt;a href="assets/17.jpg" class="<strong>themeforest</strong>" rel="<strong>group3</strong>" alt="http://themeforest.net/item/freshface-html-css/full_screen_preview/109603|http://themeforest.net/item/freshface-html-css/109603"&gt;&lt;img src="assets/m17.jpg" alt=""/&gt;&lt;/a&gt;
-&lt;a href="assets/18.jpg" class="<strong>themeforest</strong>" rel="<strong>group3</strong>" alt="http://themeforest.net/item/perfect-box-wordpress/full_screen_preview/101974|http://themeforest.net/item/perfect-box-wordpress/101974"&gt;&lt;img src="assets/m18.jpg" alt=""/&gt;&lt;/a&gt;
+&lt;a href="assets/17.jpg" class="<strong>themeforest</strong>" rel="<strong>group3</strong>" alt="http://themeforest.net/item/freshface-html-css/full_screen_preview/109603|http://themeforest.net/item/freshface-html-css/109603"&gt;&lt;img src="assets/m17.jpg" alt="image"/&gt;&lt;/a&gt;
+&lt;a href="assets/18.jpg" class="<strong>themeforest</strong>" rel="<strong>group3</strong>" alt="http://themeforest.net/item/perfect-box-wordpress/full_screen_preview/101974|http://themeforest.net/item/perfect-box-wordpress/101974"&gt;&lt;img src="assets/m18.jpg" alt="image"/&gt;&lt;/a&gt;
 </pre>
 
 
@@ -545,7 +545,7 @@ jQuery.lightbox().shake();
     <input type="submit" class="button" id="lbgallery" value="Open gallery"/>
     </p>
 
-    <script type="text/javascript">
+    <script >
       jQuery(document).ready(function($){
       
         $("#lbsingle").click(function() {
@@ -571,7 +571,7 @@ jQuery.lightbox().shake();
 </pre>
 
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   jQuery(document).ready(function($){
   
     $("<strong>#lbsingle</strong>").click(function() {
@@ -618,7 +618,7 @@ $("<strong>#lbevents</strong>").click(function() {
     <p><strong>console:</strong></p>
 <pre id="console" style="max-height:100px; overflow:auto;"><p>Events fired:</p></pre>
 
-    <script type="text/javascript">
+    <script >
       jQuery(document).ready(function($){
         
         $("#lbevents").click(function() {
@@ -658,7 +658,7 @@ $("<strong>#lbhtml</strong>").click(function() {
 });
 </pre>
 
-    <script type="text/javascript">
+    <script >
       jQuery(document).ready(function($){
         
         $("#lbhtml").click(function() {
@@ -700,9 +700,9 @@ $("<strong>#lbhtml</strong>").click(function() {
         <p>Make sure you don't have multiple versions of jquery in your page. Look at the source view in your browser to see what jscripts you are loading.</p>
         <p>For example:</p>
 <pre>
-&lt;script src="crazy_path/<strong>jquery.js</strong>" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="crazy_path/<strong>jquery.js</strong>" &gt;&lt;/script&gt;
 ...
-&lt;script src="crazy_path/<strong>jquery.min.js</strong>" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="crazy_path/<strong>jquery.min.js</strong>" &gt;&lt;/script&gt;
 ...
 &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/<strong>jquery.min.js</strong>"&gt;&lt;/script&gt;
 </pre>
@@ -725,7 +725,7 @@ $("<strong>#lbhtml</strong>").click(function() {
       </li>
 
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   jQuery(document).ready(function(){
   
     jQuery.lightbox("image.jpg");
@@ -797,7 +797,7 @@ getURL("javascript:jQuery.lightbox('image.jpg')");
         <strong>How can I open Lightbox in parent window from inside an iframe?</strong>
         <p>First thing you need to do is install the script in your parent window, but don't initialize it. Don't use jQuery(document).ready, instead, add the code below:</p>
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   function frameload(iframe) {
     var doc = iframe.contentWindow || iframe.contentDocument;
     if (doc.document) { doc = doc.document; };
@@ -825,7 +825,7 @@ getURL("javascript:jQuery.lightbox('image.jpg')");
       <p>Use this code:</p>
 
 <pre>
-&lt;script type="text/javascript"&gt;
+&lt;script &gt;
   jQuery(document).ready(function($) {
     $('<strong>.videobox</strong>').live('click', function(ev) {
       
